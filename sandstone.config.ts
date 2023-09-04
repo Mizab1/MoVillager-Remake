@@ -6,7 +6,7 @@ export default {
   formatVersion: 15,
   namespace: "mo_villager",
   packUid: "t6Y4K480",
-  saveOptions: { world: "Testing 3" },
+  saveOptions: { world: "Generate Testing" },
   onConflict: {
     default: "warn",
   },
