@@ -31,7 +31,7 @@ MCFunction("give_book", () => {
                     "bold": true,
                     "clickEvent": {
                         "action": "run_command",
-                        "value": "/function mo_villager:kill_close_villager"
+                        "value": "/function mo_villager:kill_the_closest_villager"
                     }
                 }, {
                     "text": "Use this switch to kill the villager in a 2 block radius, using this commands you will not get bad deals from other villagers. This switch is here to kill the old Mo Villager and spawn the new on in",
