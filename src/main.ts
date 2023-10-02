@@ -78,7 +78,7 @@ const self: SelectorClass<true, true> = Selector("@s");
 const closestVillager: SelectorClass<true, false> = Selector("@e", {
   type: "minecraft:villager",
   limit: 1,
-  distance: [null, 2],
+  distance: [null, 3],
 });
 
 // Load
@@ -171,7 +171,7 @@ MCFunction("uninstall", () => {
 MCFunction("kill_the_closest_villager", () => {
   _.if(_.not(closestVillager), () => {
     tellraw("@s", {
-      text: "There is no villager in 2 block radius",
+      text: "There is no villager in 3 block radius",
       color: "red",
     });
   });
